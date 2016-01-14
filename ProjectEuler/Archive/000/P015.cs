@@ -19,7 +19,7 @@ namespace ProjectEuler
 	{
 		public P015 ()
 		{
-			var n = Faculty.Fac (40) / Faculty.Fac (20) / Faculty.Fac (20);
+			var n = Combinatoric.Faculty (40) / Combinatoric.Faculty (20) / Combinatoric.Faculty (20);
 			Console.WriteLine (n);
 		}
 	}

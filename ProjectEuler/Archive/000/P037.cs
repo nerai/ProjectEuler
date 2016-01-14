@@ -22,7 +22,7 @@ namespace ProjectEuler
 		public P037 ()
 		{
 			var sum = 0ul;
-			foreach (var p in new Primes ().Where (x => Test (x)).Take (11)) {
+			foreach (var p in Primes.Generate ().Where (x => Test (x)).Take (11)) {
 				Console.WriteLine ("==> " + p);
 				sum += p;
 			}

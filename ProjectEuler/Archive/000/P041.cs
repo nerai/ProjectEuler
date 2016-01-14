@@ -31,7 +31,7 @@ namespace ProjectEuler
 					continue;
 				}
 
-				foreach (var prime in new Primes ().TakeWhile (x => x < max)) {
+				foreach (var prime in Primes.Generate ().TakeWhile (x => x < max)) {
 					if (Pandigital.IsNPandigital (prime)) {
 						Console.WriteLine (prime);
 					}
