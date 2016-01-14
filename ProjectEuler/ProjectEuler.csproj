@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archive\000\P023.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Amicable.cs" />
     <Compile Include="Util\Combinatoric.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Util\TwoKeyDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Archive\000\P018.txt" />
     <Content Include="Archive\050\P079.jpg" />
     <Content Include="Archive\000\P042.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
